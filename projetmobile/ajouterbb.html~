@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<tile> ajouter bébé </tile>
+<!--viewport,fichier css,librairie javascript-->
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+<!--feuille de style-->
+	<link rel="stylesheet" href="libs/jquery.mobile-1.3.2.css" />
+	<link rel="stylesheet" href="libs/jquery.mobile.theme-1.3.2.css" />
+<!--librairie javascript-->
+	<script src="libs/jquery-1.9.1.min.js"> </script>
+	<script src="libs/jquery.mobile-1.3.2.js"> </script>
+
+</head>
+
+<body>
+
+<!--page conseils-->
+	<div data-role="page" >
+		<div data-role="header">
+			<h3>Ajouter un bebe<br/>
+			  <a href="index.html" data-role="button" data-icon="home" data-theme="b"> Home </a>
+			</h3>
+		
+		</div>
+		<div data-role="content">
+			<div data-role="fieldset" id="text">
+			<form action="" method="post">
+					<label for="saisie"></label> 
+					<input name="saisie" id="saisie" required placeholder="Nom bebe" type="text">
+					<label for="date"></label>
+					<input name="datesaisie" id="date" required placeholder="Date naissance" type="date">
+			<div dat-role="fieldset" id="bouton">
+				<input type="submit" name="ok" value="Enregistrer">
+				<input type="reset" name="effacr" value="Annuler">
+			</div>
+				
+			</form>
+			</div>
+		</div>
+		<div data-role="footer">
+			<h5>Copyright 2013 &copy;</h5>
+		</div>
+	</div>
+
+</body>
+
+</hml>

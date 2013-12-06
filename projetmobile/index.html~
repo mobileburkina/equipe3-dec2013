@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SuiviVaccinal</title>
+<!--viewport,fichier css,librairie javascript-->
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+<!--feuille de style-->
+	<link rel="stylesheet" href="libs/jquery.mobile-1.3.2.css" />
+	<link rel="stylesheet" href="libs/jquery.mobile.theme-1.3.2.css" />
+<!--librairie javascript-->
+	<script src="http://maps.google.com/maps/api/js?sensor=true"> </script>
+	<script src="libs/jquery-1.9.1.min.js"> </script>
+	<script src="libs/jquery.mobile-1.3.2.js"> </script>
+	<script src="libs/jquery.ui.map.js"> </script>
+	
+</head>
+
+<body>
+<!--corps de la page-->
+	<div data-role="page">
+<!--entête de la page-->
+		<div data-role="header">
+			<img src="img/logo.png">
+<!--Boutons de navigation 
+		<div data-role="navbar"> <ul> <li> <a href="calendrier.html">   Calendrier</a> </li> 
+						   <li> <a href="#"> Calendrier</a> </li> 
+					</ul>
+		 </div>  -->
+		</div>
+<!--partie centrale-->
+		<div data-role="content">
+<!--menu et sous-menu
+		<div data-role="collapsible-set">
+		<div data-role="collapsible">
+		<h4> Menu </h4>
+			<ul> <li> Accueil </li>
+			     <li> Conseil </li>
+			</ul>
+		</div>
+		<div data-role="collapsible">
+		<h4> Liste </h4>
+			<ul> <li> Age </li>
+			     <li> Vaccin </li>
+			</ul>
+		</div>
+		</div> -->
+		
+
+		<ul data-role="listview" data-inset="true" data-filter="true">
+		<li> <p align="center"> <a href="calendrier.html" data-role="button" data-theme="b" data-transition="flip" data-inline="true"> Calendrier</a> </p> </li> </br>
+		<li> <p align="center"> <a href="ajouterbb.html" data-role="button" data-theme="b" data-inline="true" data-transition="flip">
+Ajouterbebe</a> </p> </li>
+		<li> <p align="center"> <a href="aide.html" data-role="button" data-theme="b" data-transition="slideup" data-inline="true" >Aide</a> </p> </li>
+		<li> <p align="center"> <a href="conseils.html" data-transition="pop" data-role="button" data-theme="b" data-transition="flip" data-inline="true">Conseils</a> </p>
+		</li>
+		<li> <p align="center"> <a href="notifications.html" data-role="button" data-theme="b" data-transition="slideup" data-inline="true">Notification</a>              </p> </li>
+		</ul>
+		</div>
+<!--pied de page-->
+		<div data-role="footer">
+			<h5>Copyright 2013 &copy;</h5>
+			<a href="carte.html" data-role="button" data-theme="b" data-transition="flip" data-inline="true">Geolocalisation</a>
+		</div>
+	</div>
+
+	</div>
+
+</body>
+</html>

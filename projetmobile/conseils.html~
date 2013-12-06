@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Conseils</title>
+<!--viewport,fichier css,librairie javascript-->
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+<!--feuille de style-->
+	<link rel="stylesheet" href="libs/jquery.mobile-1.3.2.css" />
+	<link rel="stylesheet" href="libs/jquery.mobile.theme-1.3.2.css" />
+<!--librairie javascript-->
+	<script src="libs/jquery-1.9.1.min.js"> </script>
+	<script src="libs/jquery.mobile-1.3.2.js"> </script>
+
+</head>
+
+<body>
+
+
+<!--page conseils-->
+	<div data-role="page" id="conseils">
+		<div data-role="header">
+			<h3>Les conseils pratiques<br/>
+			  <a href="index.html" data-role="button" data-icon="home" data-theme="b"> Home </a>
+			</h3>
+		
+		</div>
+		<div data-role="content">
+			Veuillez renouveller le vaccin de votre enfant a la periode indiquee<br/>
+			
+		</div>
+		<div data-role="footer">
+			<h5>Copyright 2013 &copy;</h5>
+		</div>
+	</div>
+
+</body>
+</html>

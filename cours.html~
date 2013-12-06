@@ -1,0 +1,21 @@
+<html>
+	<head>
+		<title>page d'essai</title>
+		<script type="text/javascript" src="message.js">
+			/*function showalert(){
+				alert("Bienvenue dans la fondation FemmeTICDD");
+				}
+			*/
+		</script>
+		<link rel="stylesheet" type="text/css" href="couleur.css" />
+			
+	</head>
+
+	<body>
+		Bienvenue dans l'environnement du groupe 3 </br>
+		<button type="button" onclick="showalert()">
+			cliquer
+		</button>
+	</body>
+
+</html>
